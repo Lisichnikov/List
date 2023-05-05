@@ -23,10 +23,14 @@ public class Place_Four extends AppCompatActivity {
         {
             if (flag) {
                 imageButton.setImageResource(R.drawable.povelitel1);
-
+                txt.setText(R.string.povelitel1);
+                txt2.setText(R.string.poveliteld1);
             }
-            else
+            else {
                 imageButton.setImageResource(R.drawable.povelitel);
+                txt.setText(R.string.povelitel);
+                txt2.setText(R.string.poveliteld);
+            }
             flag = !flag;
         }
 }
