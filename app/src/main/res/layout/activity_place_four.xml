@@ -10,9 +10,9 @@
 
     <ImageButton
         android:layout_width="373dp"
-        android:layout_height="455dp"
-        android:src="@drawable/povelitel"
-        android:onClick="onClick"/>
+        android:layout_height="441dp"
+        android:id="@+id/it"
+        android:src="@drawable/povelitel" />
 
     <TextView
         android:id="@+id/txt"

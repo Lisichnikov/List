@@ -9,28 +9,22 @@ import android.widget.TextView;
 
 public class Place_Four extends AppCompatActivity {
 
+    ImageButton it;
+    TextView txt;
+    TextView txt2;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_place_four);
+        it = findViewById(R.id.it);
+        txt = findViewById(R.id.txt);
+        txt2 = findViewById(R.id.txt2);
+        it.setOnLongClickListener(view -> {
+            it.setImageResource(R.drawable.povelitel1);
+            txt.setText(R.string.povelitel1);
+            txt2.setText(R.string.poveliteld1);
+            return false;
+        });
     }
-
-    ImageButton imageButton;
-    TextView txt;
-    TextView txt2;
-    boolean flag = true;
-        public void onClick(View v)
-        {
-            if (flag) {
-                imageButton.setImageResource(R.drawable.povelitel1);
-                txt.setText(R.string.povelitel1);
-                txt2.setText(R.string.poveliteld1);
-            }
-            else {
-                imageButton.setImageResource(R.drawable.povelitel);
-                txt.setText(R.string.povelitel);
-                txt2.setText(R.string.poveliteld);
-            }
-            flag = !flag;
-        }
 }
