@@ -12,6 +12,9 @@
         android:theme="@style/Theme.List"
         tools:targetApi="31">
         <activity
+            android:name=".Place_Five"
+            android:exported="false" />
+        <activity
             android:name=".Place_Six"
             android:exported="false" />
         <activity
