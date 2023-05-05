@@ -45,6 +45,10 @@ public class MainActivity extends AppCompatActivity {
                     Intent intent = new Intent(MainActivity.this, Place_Seven.class);
                     startActivity(intent);
                 }
+                if (position == 4) {
+                    Intent intent = new Intent(MainActivity.this, Place_Six.class);
+                    startActivity(intent);
+                }
             }
 
         });
