@@ -60,6 +60,16 @@ public class MainActivity extends AppCompatActivity {
                 if (position == 7) {
                     Intent intent = new Intent(MainActivity.this, Place_Three.class);
                     startActivity(intent);
+
+                }
+                if (position == 8) {
+                    Intent intent = new Intent(MainActivity.this, Place_Two.class);
+                    startActivity(intent);
+                }
+                if (position == 9) {
+                    Intent intent = new Intent(MainActivity.this, Place_One.class);
+                    startActivity(intent);
+
                 }
 
             }
