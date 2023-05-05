@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".Place_Three">
+
+    <ImageView
+        android:layout_width="373dp"
+        android:layout_height="488dp"
+        android:src="@drawable/malchik" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/girl"
+        android:fontFamily="@font/gilroy"
+        android:textColor="@color/purple_500"
+        android:textSize="30dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="10dp"
+        android:text="@string/girld"
+        android:fontFamily="@font/gilroy"
+        android:textColor="@color/black"
+        android:textSize="15dp"/>
+
+</LinearLayout>
