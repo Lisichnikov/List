@@ -9,7 +9,6 @@ import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.ImageView;
 import android.widget.ListView;
-import android.widget.TextView;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -36,6 +35,14 @@ public class MainActivity extends AppCompatActivity {
                 }
                 if (position == 1) {
                     Intent intent = new Intent(MainActivity.this, Place_Nine.class);
+                    startActivity(intent);
+                }
+                if (position == 2) {
+                    Intent intent = new Intent(MainActivity.this, Place_Eight.class);
+                    startActivity(intent);
+                }
+                if (position == 3) {
+                    Intent intent = new Intent(MainActivity.this, Place_Seven.class);
                     startActivity(intent);
                 }
             }

@@ -12,10 +12,10 @@
         android:theme="@style/Theme.List"
         tools:targetApi="31">
         <activity
-            android:name=".PlaceSevenActivity"
+            android:name=".Place_Seven"
             android:exported="false" />
         <activity
-            android:name=".PlaceEightActivity"
+            android:name=".Place_Eight"
             android:exported="false" />
         <activity
             android:name=".Place_Nine"

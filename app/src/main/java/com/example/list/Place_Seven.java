@@ -4,7 +4,7 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
 
-public class PlaceSevenActivity extends AppCompatActivity {
+public class Place_Seven extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
